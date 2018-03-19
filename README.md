@@ -21,3 +21,22 @@ There are several ways to do image morphing. If you are using Delaunay's  triang
 (delaunay triangulation one)
 
 ---------------------------------------------------------------------------------------------------------------------------------
+
+## To compile and run the code
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+Compile : 
+In order to compile the code type the following statements in the terminal:
+1) cmake .
+2) make
+
+Run :
+
+./DIP4_2014CSB1011_NikhilTeja 1a.jpg 1b.jpg 1p.txt
+
+since i have already given the tie points it's better to give the sample images 
+
+you can give command line input for img1 src as argv[1]  img0 src as argv[2] tipoints source text file as argv[3]
+
+---------------------------------------------------------------------------------------------------------------------------------
