@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( DIP4_2014CSB1011_NikhilTeja )
+find_package( OpenCV REQUIRED )
+add_executable( DIP4_2014CSB1011_NikhilTeja DIP4_2014CSB1011_NikhilTeja.cpp )
+target_link_libraries( DIP4_2014CSB1011_NikhilTeja ${OpenCV_LIBS})
